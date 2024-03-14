@@ -2,7 +2,7 @@ function App() {
 
   return (
     <>
-      <h1>DARAZ</h1>
+      <h1>DARAZ Shop</h1>
     </>
   )
 }

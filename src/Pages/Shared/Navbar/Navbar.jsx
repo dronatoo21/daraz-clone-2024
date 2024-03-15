@@ -19,9 +19,8 @@ const Navbar = () => {
               <div className="-mt-2 mb-2">
                 <div className="dropdown dropdown-hover">
                   <div tabIndex={0} role="button" className="flex items-center gap-2 glass bg-transparent rounded-lg p-1"><img className="w-5" src="//img.alicdn.com/imgextra/i1/O1CN01Ie2YnK1JmZ1mL3fY5_!!6000000001071-2-tps-60-60.png" alt="" />Save More on App</div>
-                  <ul tabIndex={0} className="dropdown-content z-[1] menu absolute -ml-[136px] mt-2 p-2 shadow bg-base-100 rounded-box w-72">
-                    <li><a>Item 1</a></li>
-                    <li><a>Item 2</a></li>
+                  <ul tabIndex={0} className="dropdown-content z-[1] menu absolute -ml-[168px] mt-2 p-2 shadow bg-base-100 rounded-box w-80">
+                    <li><img src="https://i.ibb.co/wz13Jgd/mobile-app.jpg" alt="app"/></li>
                   </ul>
                 </div>
               </div>

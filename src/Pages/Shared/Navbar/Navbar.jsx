@@ -1,6 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
-import { FaBeerMugEmpty, FaCartShopping, FaRegUser} from 'react-icons/fa6';
+import { FaBox, FaCartShopping, FaRegUser} from 'react-icons/fa6';
 import { FaMoon, FaSun} from 'react-icons/fa';
+import { GrUserPolice } from "react-icons/gr";
+import { TbMessages, TbTruckDelivery } from "react-icons/tb";
+import { SiContactlesspayment } from "react-icons/si";
+import { AiTwotoneDollar } from "react-icons/ai";
+import { MdOutlineSecurity } from "react-icons/md";
 
 const Navbar = () => {
     return (
@@ -13,13 +18,13 @@ const Navbar = () => {
                 <div className="dropdown dropdown-hover text-black">
                   <div tabIndex={0} role="button" className="text-white hover:text-gray-800 text-[12px]">Help & Support</div>
                   <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 -ml-[150px] shadow bg-base-100 rounded-box w-96">
-                    <NavLink to="#" className="flex items-center gap-2"> <FaBeerMugEmpty/><li className="w-96 h-10 p-1">Help Center</li></NavLink>
-                    <NavLink to="#" className="flex items-center gap-2"> <FaBeerMugEmpty/><li className="w-96 h-10 p-1">Chat With Us</li></NavLink>
-                    <NavLink to="#" className="flex items-center gap-2"> <FaBeerMugEmpty/><li className="w-96 h-10 p-1">Shipping & Delivery</li></NavLink>
-                    <NavLink to="#" className="flex items-center gap-2"> <FaBeerMugEmpty/><li className="w-96 h-10 p-1">Order</li></NavLink>
-                    <NavLink to="#" className="flex items-center gap-2"> <FaBeerMugEmpty/><li className="w-96 h-10 p-1">Payment</li></NavLink>
-                    <NavLink to="#" className="flex items-center gap-2"> <FaBeerMugEmpty/><li className="w-96 h-10 p-1">Returns & Refunds</li></NavLink>
-                    <NavLink to="#" className="flex items-center gap-2"> <FaBeerMugEmpty/><li className="w-96 h-10 p-1">CCMS - Central Complain Management System</li></NavLink>
+                    <NavLink to="#" className="flex items-center gap-4 hover:text-[#f65606] hover:underline rounded-xl h-10 p-1"><GrUserPolice className="text-xl"/><li>Help Center</li></NavLink>
+                    <NavLink to="#" className="flex items-center gap-4 hover:text-[#f65606] hover:underline rounded-xl h-10 p-1"><TbMessages className="text-xl"/><li>Chat With Us</li></NavLink>
+                    <NavLink to="#" className="flex items-center gap-4 hover:text-[#f65606] hover:underline rounded-xl h-10 p-1"><TbTruckDelivery className="text-xl"/><li>Shipping & Delivery</li></NavLink>
+                    <NavLink to="#" className="flex items-center gap-4 hover:text-[#f65606] hover:underline rounded-xl h-10 p-1"><FaBox className="text-xl"/><li>Order</li></NavLink>
+                    <NavLink to="#" className="flex items-center gap-4 hover:text-[#f65606] hover:underline rounded-xl h-10 p-1"><SiContactlesspayment className="text-xl"/><li>Payment</li></NavLink>
+                    <NavLink to="#" className="flex items-center gap-4 hover:text-[#f65606] hover:underline rounded-xl h-10 p-1"><AiTwotoneDollar/><li>Returns & Refunds</li></NavLink>
+                    <NavLink to="#" className="flex items-center gap-4 hover:text-[#f65606] hover:underline rounded-xl h-10 p-1"><MdOutlineSecurity className="text-xl"/><li>CCMS - Central Complain Management System</li></NavLink>
                   </ul>
                 </div>
               </div>

@@ -6,4 +6,5 @@ const BannerBelow = () => {
         </div>
     );
 };
+
 export default BannerBelow;

@@ -1,6 +1,7 @@
 const FlashSale = () => {
     return (
-        <div className="mt-20">
+        <div className="mt-5">
+            <h1 className="text-2xl p-2">FlashSale</h1>
             <div>
                 <div className="flex justify-between px-10 py-3 items-center bg-white"> 
                     <h1 className="text-orange-500">On Sale Now</h1>
@@ -13,9 +14,6 @@ const FlashSale = () => {
                   <div className="card-body">
                     <h2 className="card-title">Shoes!</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div className="card-actions justify-end">
-                      <button className="btn btn-primary">Buy Now</button>
-                    </div>
                   </div>
                 </div>
                 </div>

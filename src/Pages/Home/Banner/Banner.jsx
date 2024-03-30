@@ -1,8 +1,10 @@
+import Aside from "./Aside/Aside";
+
 const Banner = () => {
     return (
         <div className="flex justify-between m-3">
             <div className="text-center w-[28%] h-[400px]">
-                <h1>Aside</h1>
+                <Aside/>
             </div>
             <div className="text-center w-[70%] h-[400px]">
                 <div className="carousel w-full rounded-lg">

@@ -9,7 +9,7 @@ const Aside = () => {
                   <li><a>Submenu 1</a></li>
                   <li><a>Submenu 2</a></li>
                   <li>
-                    <a>Parent</a>
+                    <a>Parents</a>
                     <ul>
                       <li><a>Submenu 1</a></li>
                       <li><a>Submenu 2</a></li>

@@ -46,7 +46,7 @@ const Navbar = () => {
               </div>
               <div className="w-[30%] flex justify-between ml-10">
                 <div className="flex gap-5">
-                  <Link to="#"><div className="flex items-center gap-2 hover:text-gray-800"><FaRegUser/> Login </div></Link>
+                  <Link to="/login"><div className="flex items-center gap-2 hover:text-gray-800"><FaRegUser/> Login </div></Link>
                   |
                   <Link to="#"><div className="flex items-center gap-2 hover:text-gray-800">Sign Up</div></Link>
                 </div>

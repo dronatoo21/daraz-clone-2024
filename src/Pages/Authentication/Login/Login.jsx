@@ -1,4 +1,23 @@
+import { useContext } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../../Providers/AuthProvider";
+import { GoogleAuthProvider } from "firebase/auth";
+
 const Login = () => {
+    const {googleLogin} = useContext(AuthContext)
+    const location = useLocation();
+    const navigate = useNavigate();
+    const googleProvider = new GoogleAuthProvider()
+    const handleGoogleSignIn = () => {
+        googleLogin(googleProvider)
+        .then(res => {
+            console.log(res.user);
+            navigate(location?.state ? location.state : '/')
+        })
+        .catch(error => {
+            console.log(error.message);
+        })
+    }
     return (
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content flex-col lg:flex-row-reverse">
@@ -27,6 +46,9 @@ const Login = () => {
                   <button className="btn btn-primary">Login</button>
                 </div>
               </form>
+                <div>
+                    <button onClick={handleGoogleSignIn} className="btn btn-outline">googleLogin</button>
+                </div>
             </div>
           </div>
         </div>

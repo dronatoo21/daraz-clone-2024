@@ -12,7 +12,7 @@ const firebaseConfig = {
   storageBucket: "daraz-clone-2024.appspot.com",
   messagingSenderId: "694043965048",
   appId: "1:694043965048:web:b102d4b48438e287a21f8d"
-};
+}; 
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

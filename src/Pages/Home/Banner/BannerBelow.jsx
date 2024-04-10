@@ -41,6 +41,6 @@ const BannerBelow = () => {
             </Link>
         </div>
     );
-};
+}; 
 
 export default BannerBelow;

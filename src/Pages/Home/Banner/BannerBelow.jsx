@@ -39,7 +39,7 @@ const BannerBelow = () => {
                     <div><IoIosArrowForward/></div>
                 </div>
             </Link>
-        </div>
+        </div> 
     );
 }; 
 
